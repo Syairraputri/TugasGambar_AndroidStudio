@@ -30,7 +30,7 @@ class TugasActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            showLogoClub()
+            showTugasActivity()
         }
     }
 }
@@ -45,7 +45,7 @@ fun getScreenHeight(): Int {
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun showLogoClub() {
+fun showTugasActivity() {
     val surfaceWidth = getScreenWidth() * 0.12681;
     val surfaceHeight = getScreenHeight() * 0.1905;
     Column(
