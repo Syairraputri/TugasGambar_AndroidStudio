@@ -45,7 +45,7 @@ fun getScreenHeight(): Int {
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
-fun TugasActivity() {
+fun showTugasActivity() {
     val surfaceWidth = getScreenWidth() * 0.12681;
     val surfaceHeight = getScreenHeight() * 0.1905;
     Column(
