@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Syairra_18September"
         tools:targetApi="31">
         <activity
-            android:name=".TugasActivity"
+            android:name=".MotivationActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Syairra_18September">
